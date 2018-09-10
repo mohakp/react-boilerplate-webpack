@@ -3,8 +3,6 @@ const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const extractTextPlugin = require('extract-text-webpack-plugin');
 
-const port = process.env.PORT || 3000;
-
 module.exports = {
     mode: "development",
     entry: './src/index.js',
